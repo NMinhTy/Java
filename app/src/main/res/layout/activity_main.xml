@@ -1,0 +1,62 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <!-- Data Binding không yêu cầu khai báo biến ở đây nếu không cần -->
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvTemperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Temperature: -- °C"
+            android:textSize="18sp"
+            android:layout_alignParentTop="true" />
+
+        <TextView
+            android:id="@+id/tvHumidity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Humidity: -- %"
+            android:textSize="18sp"
+            android:layout_below="@id/tvTemperature"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/btnRelay1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lamp 1"
+            android:layout_below="@id/tvHumidity"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/btnRelay2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lamp 2"
+            android:layout_below="@id/btnRelay1"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/btnRelay3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lamp 3"
+            android:layout_below="@id/btnRelay2"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/btnRelay4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FAN"
+            android:layout_below="@id/btnRelay3"
+            android:layout_marginTop="16dp" />
+
+    </RelativeLayout>
+</layout>

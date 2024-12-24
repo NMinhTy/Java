@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tvTemperature" type="id" />
+    <item name="tvHumidity" type="id" />
+    <item name="btnRelay1" type="id" />
+    <item name="btnRelay2" type="id" />
+    <item name="btnRelay3" type="id" />
+    <item name="btnRelay4" type="id" />
+</resources>
